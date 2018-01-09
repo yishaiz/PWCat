@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
             <mat-toolbar color="primary">
                 {{ title }}
             </mat-toolbar>
+
+            <app-img-card></app-img-card>
+
         </div>
     `,
     styles : []
