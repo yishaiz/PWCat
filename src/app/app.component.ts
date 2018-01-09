@@ -13,8 +13,20 @@ import { Component } from '@angular/core';
 
         </div>
     `,
-    styles : []
+    styles : [ `
+
+
+
+    ` ]
 })
 export class AppComponent {
-    title = 'Progressive Web Cat';
+    title = 'Progressive Web Cat'
+
+    ngOnInit(){
+/*
+        for(let i=0;i<100000000; i++){
+            // console.log('a')
+        }
+*/
+    }
 }
