@@ -5,6 +5,15 @@ import { CatImage } from "../cat-image";
     selector : 'app-img-card',
     template : `
         <mat-card>
+            <button
+                    color="primary"
+                    (click)="generateSrc()"
+                    mat-button
+                    mat-raised-button>
+                Give me another cat
+            </button>
+
+
             <img src="{{src}}"
                  alt="Cute cat"
                  mat-card-image>
