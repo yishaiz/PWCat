@@ -1,16 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { CatImage } from "../cat-image";
+import { Button } from "../button";
 
 @Component({
     selector : 'app-img-card',
     template : `
         <mat-card>
-            <button
+            <button  
                     color="primary"
                     (click)="generateSrc()"
+                    disabled="{{ button.disabled }}"
                     mat-button
                     mat-raised-button>
-                Give me another cat
+                {{ button.text }}
             </button>
 
 
@@ -18,21 +20,23 @@ import { CatImage } from "../cat-image";
                  alt="Cute cat"
                  mat-card-image>
         </mat-card>  `,
-    styles : [`
+    styles : [ `
 
         .mat-card {
             width: 400px;
             margin: 2rem auto;
         }
+
         .mat-card .mat-card-actions {
             padding-top: 0;
         }
+
         .mat-card .mat-button {
             margin: 0 auto;
             display: block;
         }
-        
-    `]
+
+    ` ]
 })
 export class ImgCardComponent implements OnInit {
     public src : string;
@@ -43,11 +47,22 @@ export class ImgCardComponent implements OnInit {
         fontsize : 40
     };
 
+    public button: Button = {
+        text: 'Give me another cat',
+        color: 'primary',
+        disabled: false
+    };
+
     constructor () {
     }
 
     ngOnInit () {
-        this.generateSrc();
+        this.generateSrc()
+
+        if (!navigator.onLine) {
+            this.button.text = 'Sorry, you\'re offline';
+            this.button.disabled = true;
+        }
     }
 
     generateSrc () : void {
