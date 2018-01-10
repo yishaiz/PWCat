@@ -1,0 +1,47 @@
+{
+  "configVersion": 1,
+  "index": "C:/Program Files/Git/PWCat/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "C:/Program Files/Git/PWCat/index.html",
+        "C:/Program Files/Git/PWCat/inline.552c16413808e32a86ee.bundle.js",
+        "C:/Program Files/Git/PWCat/main.5a4f043f9ddb973dd404.bundle.js",
+        "C:/Program Files/Git/PWCat/polyfills.61df7d7ec492d95bb0b2.bundle.js",
+        "C:/Program Files/Git/PWCat/styles.f67bd7600b2b758f6aac.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "C:/Program Files/Git/PWCat/assets/icon-128x128.png",
+        "C:/Program Files/Git/PWCat/assets/icon-152x152.png",
+        "C:/Program Files/Git/PWCat/assets/icon-256x256.jpg",
+        "C:/Program Files/Git/PWCat/assets/icon-256x256.png",
+        "C:/Program Files/Git/PWCat/assets/icon-512x512.png",
+        "C:/Program Files/Git/PWCat/assets/image-144x144.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "C:/Program Files/Git/PWCat/inline.552c16413808e32a86ee.bundle.js": "4878a37e5a1fe26fd0ea67b3bedc3e43f881eb4f",
+    "C:/Program Files/Git/PWCat/assets/icon-128x128.png": "0e1afb512909a13d7fbdd86d537b6ba0fcb1ce68",
+    "C:/Program Files/Git/PWCat/main.5a4f043f9ddb973dd404.bundle.js": "33602077d7eb4b9eadefca0a82b93740e9470027",
+    "C:/Program Files/Git/PWCat/assets/icon-152x152.png": "05ed1da4b249fa9363ae57da62168b3480bd7529",
+    "C:/Program Files/Git/PWCat/polyfills.61df7d7ec492d95bb0b2.bundle.js": "ff1216348b48e80e4e810b0f7b785cb69647895a",
+    "C:/Program Files/Git/PWCat/assets/icon-256x256.jpg": "bda98660638dd356d4e5fe77a4b514089a5964e0",
+    "C:/Program Files/Git/PWCat/styles.f67bd7600b2b758f6aac.bundle.css": "82b07305533cfd4abe9716b21d878547bfbab9bd",
+    "C:/Program Files/Git/PWCat/assets/icon-256x256.png": "16fe3310b26724ee465cd9f5b54c75f95fd768fa",
+    "C:/Program Files/Git/PWCat/index.html": "ebe086d8f612c086e70814d6ae6893e6124f56a3",
+    "C:/Program Files/Git/PWCat/assets/icon-512x512.png": "a989d944b70a8889dfdedee4a1bb2e0725324987",
+    "C:/Program Files/Git/PWCat/assets/image-144x144.png": "ca7dc6baa3e86c56a0bc27e74604b8fcef2e3338"
+  }
+}
