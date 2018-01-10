@@ -1,17 +1,17 @@
 {
   "configVersion": 1,
-  "index": "'/PWCat/'/index.html",
+  "index": "C:/Program Files/Git/PWCat/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "'/PWCat/'/index.html",
-        "'/PWCat/'/inline.7fea19a341b51b703a09.bundle.js",
-        "'/PWCat/'/main.22c144ddfa7ef5dda7a6.bundle.js",
-        "'/PWCat/'/polyfills.61df7d7ec492d95bb0b2.bundle.js",
-        "'/PWCat/'/styles.f67bd7600b2b758f6aac.bundle.css"
+        "C:/Program Files/Git/PWCat/index.html",
+        "C:/Program Files/Git/PWCat/inline.7fea19a341b51b703a09.bundle.js",
+        "C:/Program Files/Git/PWCat/main.22c144ddfa7ef5dda7a6.bundle.js",
+        "C:/Program Files/Git/PWCat/polyfills.61df7d7ec492d95bb0b2.bundle.js",
+        "C:/Program Files/Git/PWCat/styles.f67bd7600b2b758f6aac.bundle.css"
       ],
       "patterns": []
     },
@@ -20,12 +20,12 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "'/PWCat/'/assets/icon-128x128.png",
-        "'/PWCat/'/assets/icon-152x152.png",
-        "'/PWCat/'/assets/icon-256x256.jpg",
-        "'/PWCat/'/assets/icon-256x256.png",
-        "'/PWCat/'/assets/icon-512x512.png",
-        "'/PWCat/'/assets/image-144x144.png"
+        "C:/Program Files/Git/PWCat/assets/icon-128x128.png",
+        "C:/Program Files/Git/PWCat/assets/icon-152x152.png",
+        "C:/Program Files/Git/PWCat/assets/icon-256x256.jpg",
+        "C:/Program Files/Git/PWCat/assets/icon-256x256.png",
+        "C:/Program Files/Git/PWCat/assets/icon-512x512.png",
+        "C:/Program Files/Git/PWCat/assets/image-144x144.png"
       ],
       "patterns": [
         "https:\\/\\/cataas\\.com\\/.*"
@@ -34,16 +34,16 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "'/PWCat/'/inline.7fea19a341b51b703a09.bundle.js": "e3fd3d6a8f1decdfc36392ca90e1d2a20b31794d",
-    "'/PWCat/'/assets/icon-128x128.png": "0e1afb512909a13d7fbdd86d537b6ba0fcb1ce68",
-    "'/PWCat/'/main.22c144ddfa7ef5dda7a6.bundle.js": "65b4557267b8572baadfc3ee07e6d97a7d66410d",
-    "'/PWCat/'/assets/icon-152x152.png": "05ed1da4b249fa9363ae57da62168b3480bd7529",
-    "'/PWCat/'/polyfills.61df7d7ec492d95bb0b2.bundle.js": "ff1216348b48e80e4e810b0f7b785cb69647895a",
-    "'/PWCat/'/assets/icon-256x256.jpg": "bda98660638dd356d4e5fe77a4b514089a5964e0",
-    "'/PWCat/'/styles.f67bd7600b2b758f6aac.bundle.css": "82b07305533cfd4abe9716b21d878547bfbab9bd",
-    "'/PWCat/'/assets/icon-256x256.png": "16fe3310b26724ee465cd9f5b54c75f95fd768fa",
-    "'/PWCat/'/index.html": "cad5554e8fde1fabc9c8c4f2d450d89b328ab899",
-    "'/PWCat/'/assets/icon-512x512.png": "a989d944b70a8889dfdedee4a1bb2e0725324987",
-    "'/PWCat/'/assets/image-144x144.png": "ca7dc6baa3e86c56a0bc27e74604b8fcef2e3338"
+    "C:/Program Files/Git/PWCat/inline.7fea19a341b51b703a09.bundle.js": "e3fd3d6a8f1decdfc36392ca90e1d2a20b31794d",
+    "C:/Program Files/Git/PWCat/assets/icon-128x128.png": "0e1afb512909a13d7fbdd86d537b6ba0fcb1ce68",
+    "C:/Program Files/Git/PWCat/main.22c144ddfa7ef5dda7a6.bundle.js": "65b4557267b8572baadfc3ee07e6d97a7d66410d",
+    "C:/Program Files/Git/PWCat/assets/icon-152x152.png": "05ed1da4b249fa9363ae57da62168b3480bd7529",
+    "C:/Program Files/Git/PWCat/polyfills.61df7d7ec492d95bb0b2.bundle.js": "ff1216348b48e80e4e810b0f7b785cb69647895a",
+    "C:/Program Files/Git/PWCat/assets/icon-256x256.jpg": "bda98660638dd356d4e5fe77a4b514089a5964e0",
+    "C:/Program Files/Git/PWCat/styles.f67bd7600b2b758f6aac.bundle.css": "82b07305533cfd4abe9716b21d878547bfbab9bd",
+    "C:/Program Files/Git/PWCat/assets/icon-256x256.png": "16fe3310b26724ee465cd9f5b54c75f95fd768fa",
+    "C:/Program Files/Git/PWCat/index.html": "56d8cc4220767ab42e3187f34767d2a77989b0c5",
+    "C:/Program Files/Git/PWCat/assets/icon-512x512.png": "a989d944b70a8889dfdedee4a1bb2e0725324987",
+    "C:/Program Files/Git/PWCat/assets/image-144x144.png": "ca7dc6baa3e86c56a0bc27e74604b8fcef2e3338"
   }
 }
