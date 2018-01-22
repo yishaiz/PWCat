@@ -57,7 +57,7 @@ export class ImgCardComponent implements OnInit {
     }
 
     ngOnInit () {
-        this.generateSrc()
+        this.generateSrc();
 
         if (!navigator.onLine) {
             this.button.text = 'Sorry, you\'re offline';

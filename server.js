@@ -2,6 +2,10 @@ const express = require('express')
 const morgan = require('morgan')
 const bodyParser = require('body-parser')
 const cookieParser = require('cookie-parser')
+/*
+const favicon = require('serve-favicon')
+const path = require('path')
+*/
 
 const app = express()
 
@@ -12,12 +16,15 @@ app.use((req, res, next) => {
 
             const sslUrl = [ 'https://', req.hostname, req.url ].join('')
 
-             return res.redirect(sslUrl);
+            return res.redirect(sslUrl);
         }
 
         next()
     }
 )
+
+// app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
+
 
 //
 // const data = require('./app/data/data')
